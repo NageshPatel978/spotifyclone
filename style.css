@@ -1,0 +1,203 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    color: black;
+}
+
+.border {
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.item-center {
+    align-items: center;
+}
+
+.left {
+    width: 25vw;
+    height: 100vh;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.right {
+    width: 75vw;
+    margin: 25px 0;
+    border-radius: 5px;
+    height: 100vh;
+
+}
+
+.home {
+    padding:10px;
+}
+
+.home ul li {
+    display: flex;
+    width: 14px;
+    list-style: none;
+    gap: 15px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.bg-black {
+    background-color: black;
+    color: white;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.bg-grey {
+    background-color: #121212;
+}
+
+.rounded {
+    border-radius: 18px solid;
+}
+
+.m-2 {
+    margin: 5px;
+}
+
+.logo {
+    display: flex;
+    gap: 1px;
+    color: black;
+    font-weight: bolder;
+}
+
+.p-1 {
+    margin: 10px;
+}
+
+.heading {
+    display: flex;
+    width: 14px;
+    list-style: none;
+    gap: 15px;
+    align-items: center;
+    white-space: nowrap;
+    
+}
+
+.footer {
+    display: flex;
+    font-size: 10px;
+    gap: 13px;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer a {
+    color: grey;
+}
+
+.library {
+    min-height: 70vh;
+    position: relative;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    background-color:#121212;
+    color: white;
+}
+.nav{
+    padding: 8px;
+}
+.button{
+    padding: 8px;
+}
+.header > *{
+
+}
+.color{
+    color:white;
+    font-size: large;
+}
+.spotify-playlists{
+padding: 16px;
+}
+.cardcontainer{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+.card{
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #121212;
+    position: relative;
+}
+.card > *{
+    padding: 10px;
+}
+.card img{
+    width: 90%;
+    border-radius: 15px;
+    object-fit: cover;
+display: block;
+margin: 0 auto;
+}
+.play{
+    position: absolute;
+    bottom: 160px;
+    right: 17px; 
+    opacity: 1;
+    transition: all 1s ease-out;
+}
+.playbar{
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    background-color:rgb(139, 193, 139);
+    color: white;
+    width: 72.5vw;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+.songlist ul li {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+    padding: 12px 10px;
+    border: solid white;
+    border-radius: 5px;
+    margin: 1px;
+    display: flex;
+
+
+}
+.invert{
+    filter: invert(1);  
+}
+.playnow{
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.info{
+    width: 250px;
+}
